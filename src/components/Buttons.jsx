@@ -3,12 +3,12 @@ import React from 'react'
 const Buttons = (props) => {
   const buttonStyles = {
     'secondary': "bg-gray-50 text-gray-800",
-    'primary': "bg_purple text-gray-900",
+    'primary': "bg_purple text-white",
     'blah': "bg-orange-600 text-white"
 
 }
 const buttonSizes = {
-    'medium': "py-8 px-8 rounded",
+    'medium': "py-3 px-2 rounded",
 
 
 }

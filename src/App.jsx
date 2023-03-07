@@ -1,23 +1,24 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import './App.css'
-import { Navbar,Hero,Partners,PlatformCards,Section,Testimonials,Faqs,Subscribe,JoinMillions,Footer} from "./components/Connections"
+import "./index.css"
+import { Navbar,Hero,Partners,CardsLayout,SectionLayout,TestimonialLayout,Faqs,Subscribe,JoinMillions,Footer} from "./components/Connections"
 
 function App() {
 
 
   return (
-    <div className='container'>
+    <div className='container-main'>
       <Navbar />
       <Hero/>
       <Partners/>
-      <PlatformCards/>
-      <Section />
-      <Testimonials/>
+      <CardsLayout/>
+      <SectionLayout />
+      <TestimonialLayout/>
       <Faqs/>
       <Subscribe/>
       <JoinMillions/>
       <Footer/>
+      
     </div>
   )
 }

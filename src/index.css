@@ -7,8 +7,16 @@
 body {
     font-family: "Poppins", sans-serif;
 }
-.container {
-    @apply container h-screen mx-auto px-3;
+.container-main {
+    @apply container h-screen mx-auto px-5;
+}
+.mainn{
+    
+}
+.flexx{
+    @apply flex;
+    @apply items-center;
+ 
 }
 .bg_purple {
     @apply bg-[#4F46BA] ;
@@ -18,4 +26,9 @@ body {
 }
 .text_color {
     @apply text-slate-700;
+}
+.footerBan{
+    width: 100%;
+    background-image: url('./assets/SectionImages/footerBanner.png');
+    
 }
