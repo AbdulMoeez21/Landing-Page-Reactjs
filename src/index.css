@@ -8,11 +8,9 @@ body {
     font-family: "Poppins", sans-serif;
 }
 .container-main {
-    @apply container h-screen mx-auto px-5;
+    @apply container min-h-screen mx-auto px-5;
 }
-.mainn{
-    
-}
+
 .flexx{
     @apply flex;
     @apply items-center;

@@ -86,3 +86,22 @@ export const partnersList = [
         img: segment,
     },
 ];
+
+
+export const faqData = [
+    { id: 1,
+      question: 'What is React?',
+      answer: 'React is a JavaScript library for building user interfaces.',
+    },
+    {id: 2,
+      question: 'What are the benefits of using React?',
+      answer: 'React allows developers to build reusable UI components, and it has a virtual DOM that makes rendering faster and more efficient.',
+    },
+    {
+        id: 3,
+        question: "How do I install React?",
+        answer:
+          "You can install React by running `npm install react` or `yarn add react`.",
+      },
+      ];
+  

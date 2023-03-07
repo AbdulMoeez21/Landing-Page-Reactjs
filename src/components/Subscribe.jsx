@@ -12,6 +12,7 @@ const Subscribe = () => {
         <Buttons type="blah" size="medium" >Subscribe</Buttons></div>
 
       </div>
+      
     </div>
   )
 }

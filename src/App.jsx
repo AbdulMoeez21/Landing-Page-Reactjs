@@ -7,19 +7,22 @@ function App() {
 
 
   return (
-    <div className='container-main'>
+    <div>
+     <div className='container-main'>
       <Navbar />
       <Hero/>
       <Partners/>
       <CardsLayout/>
       <SectionLayout />
       <TestimonialLayout/>
-      <Faqs/>
+      <Faqs/>  
+      </div>
+      <div>
       <Subscribe/>
       <JoinMillions/>
       <Footer/>
-      
-    </div>
+      </div>
+      </div>
   )
 }
 

@@ -5,7 +5,7 @@ import Buttons from "./Buttons"
 // import "../index.css"
 const Hero = () => {
   return (
-    <div className='flexx justify-between'>
+    <div className='flexx justify-between py-5'>
       <div className="left flex flex-col space-y-4">
       <h1 className="text_heading text-6xl">
                     Increase your followers on social media

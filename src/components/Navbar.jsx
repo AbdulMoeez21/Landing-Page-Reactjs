@@ -22,7 +22,7 @@ const Navbar = () => {
   return (
    
      <div className="flex items-center justify-between py-4">
-     <div className="logo self-center text-2xl font-semibold whitespace-nowrap dark:text-black"> ArShakir</div>
+     <div className="logo self-center text-2xl font-semibold whitespace-nowrap dark:text-black"> RAO</div>
      <div className="flex items-center justify-center w-full space-x-4 ">
      {navItems.map((item, index) => {
           return (

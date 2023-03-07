@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="md:flex md:justify-between">
           <div class="px-12">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              ArShakir
+              RAO
             </span>
             <p className="w-96 py-4 dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic est,
