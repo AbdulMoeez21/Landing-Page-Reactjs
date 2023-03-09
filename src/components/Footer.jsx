@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900">
+      <footer class="h-full p-4 bg-white sm:p-6 dark:bg-gray-900">
         <div class="md:flex md:justify-between">
           <div class="px-12">
             <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
