@@ -9,7 +9,7 @@ const Footer = () => {
             <span class="self-center text-3xl md:text-2xl  font-semibold whitespace-nowrap  dark:text-white">
               RAO
             </span>
-            <p className="w-96 pt-2 pb-10 text-justify md:text-left dark:text-white">
+            <p className="md:w-96 w-64 pt-2 pb-10 text-justify md:text-left dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic est,
               dolorem nobis blanditis maxime accusantium quasi iste ipsum!
               Nostrum natus quas aliquam! 
