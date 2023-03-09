@@ -8,7 +8,7 @@ const Buttons = (props) => {
 
 }
 const buttonSizes = {
-    'medium': "py-3 px-2 rounded",
+    'medium': " py-3 px-2 rounded",
 
 
 }
