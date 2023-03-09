@@ -5,17 +5,19 @@ const Footer = () => {
     <div>
       <footer class="h-full p-4 bg-white sm:p-6 dark:bg-gray-900">
         <div class="md:flex md:justify-between">
-          <div class="px-12">
-            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <div class="px-12 ">
+            <span class="self-center text-3xl md:text-2xl  font-semibold whitespace-nowrap  dark:text-white">
               RAO
             </span>
-            <p className="w-96 py-4 dark:text-white">
+            <p className="w-96 pt-2 pb-10 text-justify md:text-left dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic est,
-              dolorem nobis blanditiis maxime accusantium quasi iste ipsum!
-              Nostrum natus quas aliquam!
+              dolorem nobis blanditis maxime accusantium quasi iste ipsum!
+              Nostrum natus quas aliquam! 
+              
+              
             </p>
           </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 pl-4 ">
             <div>
               <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                 Company

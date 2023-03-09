@@ -2,11 +2,11 @@ import React from "react";
 import PlatformCards from "./PlatformCards";
 const CardsLayout = () => {
   return (
-    <div className="flex-col">
-      <h1 className="text-3xl pl-4  py-10 w-80 font-semibold ">
+    <div className="flex-col ">
+      <h1 className="text-2xl pl-4  py-10 w-80 font-medium md:font-semibold md:text-3xl ">
         One platform to increase followers on all social media
       </h1>
-      <div className="flexx justify-center gap-x-20">
+      <div className="flexx justify-center gap-x-20 md:flex-row flex-wrap space-y-10">
         <PlatformCards
           icon={
             <svg

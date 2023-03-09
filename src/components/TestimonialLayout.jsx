@@ -3,11 +3,13 @@ import Testimonials from './Testimonials'
 
 const TestimonialLayout = () => {
   return (
-    <div className='flex flex-col items-center py-5'  >
-    <h1 className='font-bold text-sm'>TESTIMONIAL</h1>
+    <div className='flex flex-col items-center md:py-10  py-20'  >
+    <h1 className='font-bold text-sm Class
+Properties
+underline'>TESTIMONIAL</h1>
 <h1 className='text-3xl py-5  items-center'>What Our Happy <br /> <p className='px-9'>Users Says</p> </h1>
     
-    <div className='flex'>
+    <div className='flex flex-col md:flex-row'>
   
       <Testimonials img="flaro-assets/images/testimonials/avatar2.png"
         name="Shelby" designation="Ceo" imgg="https://blog.hubspot.com/hubfs/Customer-testimonial-page.jpg" logo={

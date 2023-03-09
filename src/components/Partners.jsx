@@ -4,8 +4,8 @@ const Partners = () => {
   const [list,setList]=useState(partnersList)
   return (
     <div className='py-16 space-y-4 flexx flex-col justify-center'>
-    <h1 className='text-2xl py-4'>Trusted by over 100+ Starups and freelance bussiness</h1>
-      <div className='flexx justify-center space-x-9'>
+    <h1 className='text-2xl text-center py-4'>Trusted by over 100+ Starups and freelance bussiness</h1>
+      <div className=' flexx flex-wrap gap-5 justify-center md:space-x-9'>
       {
         list.map((item,index)=>{
           return <div className='' key={index}>

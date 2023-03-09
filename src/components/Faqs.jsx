@@ -12,14 +12,14 @@ const Faqs = () => {
     }
   };
   return (
-    <div className='flexx p-3'>
-      <div className='w-1/3 '>
-      <h1 className='font-semibold text-3xl'>Any Questions? <br /> We got you.</h1>
-      <p className='py-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, accusamus culpa eum doloremque laborum quia temporibus illum, quidem aliquam eligendi, doloribus eveniet molestias nostrum nihil!</p>
+    <div className='flexx p-3 flex-col md:flex-row'>
+      <div className='w-3/4   md:w-4/5'>
+      <h1 className='font-semibold text-3xl '>Any Questions? <br /> We got you.</h1>
+      <p className='py-7 text-justify pr-2 md:pr-24'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, accusamus culpa eum doloremque laborum quia temporibus illum, quidem aliquam eligendi, doloribus eveniet molestias nostrum nihil!</p>
 
       </div>
       <div className="w-3/4 max-w-2xl mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+      <h2 className="md:text-2xl text-xl font-bold mb-4">Frequently Asked Questions</h2>
       <ul>
         {faqData.map(({ id, question, answer }) => (
           <li key={id} className="mb-4">

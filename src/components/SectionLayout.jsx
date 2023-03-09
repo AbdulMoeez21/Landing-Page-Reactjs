@@ -4,7 +4,7 @@ import img2 from "../assets/SectionImages/DailyUsers.png"
 import Section from './Section'
 const SectionLayout = () => {
   return (
-    <div className="space-y-4 mt-20">
+    <div className="md:space-y-4 mt-20 ">
       <Section  
         title=" Get thousands of active followers"
         buttonText="Start Free"
