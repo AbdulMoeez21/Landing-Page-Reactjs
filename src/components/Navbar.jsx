@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="flexx justify-center md:py-10 py-5 w-full space-x-4 ">
       {navItems.map((item, index) => {
            return (
-             <div className='flex items-center  md:ml-4 text-sm    space-x-1  py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-500 md:dark:hover:text-dark dark:hover:bg-gray-900 dark:hover:text-white md:dark:hover:bg-transparent' key={index}>
+             <div className='flex items-center  md:ml-4 text-xs    space-x-1  py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-200 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-500 md:dark:hover:text-dark dark:hover:bg-gray-900 dark:hover:text-white md:dark:hover:bg-transparent' key={index}>
              <span >{item.link}</span>
              {item.isDropDown && (
                                  <svg

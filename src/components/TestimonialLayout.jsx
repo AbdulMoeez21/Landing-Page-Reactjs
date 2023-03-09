@@ -3,8 +3,8 @@ import Testimonials from './Testimonials'
 
 const TestimonialLayout = () => {
   return (
-    <div className='flex flex-col items-center  '  >
-    <h1 className='font-bold text-sm'>TESTIMONIAL</h1>
+    <div className='flex flex-col items-center py-12 md:py-4'  >
+    <h1 className='font-bold text-sm underline'>TESTIMONIAL</h1>
 <h1 className='text-3xl py-5  items-center'>What Our Happy <br /> <p className='px-9'>Users Says</p> </h1>
     
     <div className='flex flex-col md:flex-row'>
